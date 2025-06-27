@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 5px;
+}
+body {
+  background-color: #ebebeb;
+}
+.hero-logo {
+  width: 230px;
+  margin-left: 45px;
+}
+.centralizado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+  padding: 2rem;
+}
+
+.centralizado img {
+  max-width: 50%;
+  height: auto;
+}
+
+.centralizado h1 {
+  font-size: 2rem;
+  color: #333;
+}
